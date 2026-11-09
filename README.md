@@ -21,15 +21,15 @@ Sie verändert Details und einzelne Formen; sie ist weder ein verifiziertes Foto
 noch ein echter hochauflösender Ersatz. Absolute Pol-/Nahtfreiheit und exakte
 Übereinstimmung aller Lernmarkierungen sind nicht bestätigt.
 
-Dateien: `assets/plantage-mit-hof-original.jpg`,
-`assets/plantage-mit-hof-ki.png`, vollständiger Bearbeitungsprompt in
+Dateien: `assets/plantage-mit-hof-original.webp`,
+`assets/plantage-mit-hof-ki.webp`, vollständiger Bearbeitungsprompt in
 `assets/plantage-mit-hof-ki-prompt.txt`.
 
 Geprüft: eingebettete Bilddaten und JavaScript-Syntax. Browserprüfung steht aus.
 
 ## Überarbeitung mit dem abgestimmten Prompt
 
-Die KI-Auswahl verwendet nun `assets/plantage-mit-hof-ki-v2.png`.
+Die KI-Auswahl verwendet nun `assets/plantage-mit-hof-ki-v2.webp`.
 Der vollständig und unverändert eingesetzte deutsche Prompt steht in
 `assets/plantage-mit-hof-ki-v2-prompt.txt`. Werkzeug: integriertes image_gen,
 Bearbeitung des Originalpanoramas, keine nachträgliche Skalierung oder Schärfung.
@@ -37,7 +37,7 @@ Gelieferte native Auflösung: 1774 × 887 Pixel. Das Original bleibt als Verglei
 
 ## Aktuelle Startansicht: realistischere Kakaobäume
 
-Die aktuelle KI-Auswahl und Startansicht verwendet `assets/plantage-mit-hof-botanik.png`
+Die aktuelle KI-Auswahl und Startansicht verwendet `assets/plantage-mit-hof-botanik.webp`
 (1774 × 887 Pixel), mit dem integrierten image_gen-Werkzeug aus dem Original erzeugt.
 Der vollständige Prompt liegt in `assets/plantage-mit-hof-botanik-prompt.txt`.
 Kakaobäume wurden stärker verzweigt, die Fruchtzahl reduziert und Früchte an Stämme
@@ -49,7 +49,7 @@ Pole sind nicht bestätigt. Browserprüfung steht aus.
 
 ## Aktuelle Korrektur: schlankere Kakaobäume
 
-Die KI-Startansicht verwendet jetzt `assets/plantage-mit-hof-schlank.png`.
+Die KI-Startansicht verwendet jetzt `assets/plantage-mit-hof-schlank.webp`.
 Mit image_gen wurden übermäßig dicke Kakaostämme und Hauptäste gezielt verschlankt;
 Verzweigungen, Früchte an altem Holz sowie die warmen Erdtöne wurden weitgehend
 beibehalten. Native Ausgabe: 1774 × 887 Pixel. Keine klassische Skalierung.
@@ -68,8 +68,8 @@ Die Bildfläche behält ihr Seitenverhältnis, damit Früchte und Trefferfläche
 auch auf kleinen Bildschirmen am Baum bleiben. Tastaturbedienung über Tab und
 Enter/Leertaste; reduzierte Bewegung wird berücksichtigt.
 
-Assets: `assets/station-2-kakaobaum.png` (1536 × 1024) und
-`assets/station-2-fruechte-alpha.png` (2172 × 724, RGBA; drei Spritezellen).
+Assets: `assets/station-2-kakaobaum.webp` (1536 × 1024) und
+`assets/station-2-fruechte-alpha.webp` (2172 × 724, RGBA; drei Spritezellen).
 Vollständige Prompts liegen in den gleichnamigen `-prompt.txt`-Dateien.
 Erzeugt mit dem integrierten image_gen-Werkzeug. Beide PNGs sind zusätzlich
 im GAME-Block von `index.html` eingebettet, damit der bestehende Blob-Wechsel
@@ -84,7 +84,7 @@ Browserprüfung ausstehend: Chromium startet in dieser Umgebung nicht
 ## Station 2: natürlicher Fruchtansatz und Ernte mit Machete
 
 Der Erntekorb verwendet jetzt sechs fotorealistische Ansichten (leer bis fünf
-Früchte) aus `assets/station-2-korb-stufen.png`, mit transparentem Hintergrund.
+Früchte) aus `assets/station-2-korb-stufen.webp`, mit transparentem Hintergrund.
 Die Früchte liegen unterschiedlich ausgerichtet im Korb und werden vom Rand
 teilweise verdeckt. Der vollständige image_gen-Prompt liegt daneben.
 Die Fruchtstiele am Baum sind auf Stamm und kräftigen Ästen verankert; Größe,
@@ -112,7 +112,7 @@ einem ausgeschnittenen Bildfenster dargestellt. Die sechs Füllstände wechseln
 über die Position des Bildes; ein leeres Element mit automatischer Höhe und
 Hintergrundbild ist nicht mehr erforderlich.
 
-`assets/station-2-machete-foto.png` ist ein mit dem integrierten image_gen
+`assets/station-2-machete-foto.webp` ist ein mit dem integrierten image_gen
 gefertigtes Werkzeugfoto mit Alphakanal (2172 × 724 Pixel). Vollständiger Prompt:
 `assets/station-2-machete-foto-prompt.txt`. Die Schnittanimation führt die untere
 Schneide an den individuellen oberen Fruchtansatz. Kontaktpunkt anhand des
@@ -127,11 +127,11 @@ Lokal gespeichert, nicht veröffentlicht.
 
 ## Station 2: rötliche reife Früchte
 
-Der Baum verwendet jetzt `assets/station-2-fruechte-rot-alpha.png` als 2×2-Atlas
+Der Baum verwendet jetzt `assets/station-2-fruechte-rot-alpha.webp` als 2×2-Atlas
 (gelb, orange, rotbraun, grün). Zwei der fünf reifen Früchte sind rotbraun;
 vier grüne Früchte bleiben am Baum. Farbhinweise und zugängliche Beschriftungen
 berücksichtigen die roten Früchte. Formvarianten und Schnittpunkte bleiben erhalten.
-Die sechs Korbansichten in `assets/station-2-korb-rot-stufen.png` zeigen nun eine
+Die sechs Korbansichten in `assets/station-2-korb-rot-stufen.webp` zeigen nun eine
 Mischung aus gelben, orangen und rotbraunen Früchten. Beide Bilder wurden mit dem
 integrierten image_gen aus den bisherigen Assets bearbeitet; die vollständigen
 Prompts liegen in den zugehörigen `-prompt.txt`-Dateien. Vorherige Assets bleiben
@@ -162,7 +162,7 @@ Visuelle Browserprüfung weiterhin ausstehend. Änderungen lokal gespeichert.
 Die zusammengesetzten Einzelfrüchte im Korb wurden auf Wunsch durch vollständig
 fotorealistische Korbansichten ersetzt. Alle 18 möglichen Farbzusammenstellungen
 (0–2 gelbe, 0–2 rotbraune, 0–1 orange Frucht) sind in drei 3×2-Bildatlanten unter
-`assets/station-2-korb-kombinationen-rot-0.png` bis `-2.png` abgelegt. Die Zahl
+`assets/station-2-korb-kombinationen-rot-0.webp` bis `-2.webp` abgelegt. Die Zahl
 rotbrauner Früchte wählt den Atlas, die Gelbzahl die Spalte und die Orangezahl
 die Zeile. Somit wird jede Erntereihenfolge korrekt dargestellt. Alle drei
 Atlanten sind direkt im Spiel eingebettet; zusätzliche Downloads entfallen.
@@ -184,10 +184,10 @@ Der vorhandene Zähler und `window.__s3NB` bleiben erhalten. Tastaturbedienung u
 reduzierte Bewegung sind berücksichtigt.
 
 Neue Dateien (alle zusätzlich direkt im GAME-Block eingebettet):
-- `assets/station-3-holzklotz.png`
-- `assets/station-3-frucht-zustaende.png`
-- `assets/station-3-bohne-fruchtfleisch.png`
-- `assets/station-3-handschuh.png`
+- `assets/station-3-holzklotz.webp`
+- `assets/station-3-frucht-zustaende.webp`
+- `assets/station-3-bohne-fruchtfleisch.webp`
+- `assets/station-3-handschuh.webp`
 
 Die neuen Bilder wurden mit dem integrierten image_gen-Werkzeug erstellt.
 Die vollständigen Prompts liegen jeweils in der gleichnamigen `-prompt.txt`-Datei.
@@ -224,7 +224,7 @@ bestanden. Eine visuelle Browserprüfung steht weiterhin aus.
 Drei Schnitte verlängern die Schnittlinie vom Stiel bis zur Spitze. Die längs
 geöffneten Schalen zeigen dicht versetzte, einzeln sammelbare Bohnen in weißer,
 feuchter Pulpa. Die neue Fotografik wurde mit dem integrierten image_gen erzeugt:
-`assets/station-3-bohne-weisse-pulpa.png`; vollständiger Prompt:
+`assets/station-3-bohne-weisse-pulpa.webp`; vollständiger Prompt:
 `assets/station-3-bohne-weisse-pulpa-prompt.txt`. Sie ist zusätzlich im Spiel
 eingebettet. Vorherige Grafik bleibt erhalten.
 
@@ -238,7 +238,7 @@ flache Pulpa-Grafik. Weiße, feucht glänzende Schleimhüllen umgeben die Kerne;
 sie sitzen leicht versetzt in fünf Längsreihen innerhalb der Schale. Jede Bohne
 behält ihre Form auf dem Weg in die Schüssel. Die Zahl bleibt bei 30–50.
 
-Bild: `assets/station-3-frische-bohnen-varianten.png` (integriertes image_gen).
+Bild: `assets/station-3-frische-bohnen-varianten.webp` (integriertes image_gen).
 Vollständiger Prompt: `assets/station-3-frische-bohnen-varianten-prompt.txt`.
 Die Darstellung entsättigt den leichten Rosaton der Grafik für eine weißere Pulpa.
 Botanische Referenz: https://apps.worldagroforestry.org/treesandmarkets/inaforesta/documents/agrof_cons_biodiv/cocoa%20frm%20bud%20to%20bean.htm
@@ -255,7 +255,7 @@ leere Schalenhälfte. Der Zähler zählt jetzt die drei Schnitte. Hinweise,
 Aufgabentext und Vorlesetext verlangen kein Einsammeln mehr. Der normale
 Stationsabschluss ist direkt nach dem Öffnen verfügbar.
 
-Neue eingebettete Grafik: `assets/station-3-frucht-referenz-kern.png`.
+Neue eingebettete Grafik: `assets/station-3-frucht-referenz-kern.webp`.
 Erstellt mit integriertem image_gen anhand der bisherigen Fruchtgrafik und
 der vom Nutzer angegebenen Roastmarket-Fotoreferenz. Vollständiger Prompt
 und Referenzlink: `assets/station-3-frucht-referenz-kern-prompt.txt`.
@@ -331,7 +331,7 @@ Reproduzierbarer Browsercheck (Chromium, ChromeDriver und Python benötigt):
 Station 3 ersetzt die Masken bzw. Tiefenlagen der älteren Arbeitsstände durch
 zwölf eigens mit dem integrierten `image_gen` erzeugte fotorealistische Zustände
 derselben geöffneten Frucht: voll bis vollständig leer. Das unverändert
-übernommene RGBA-Bild `assets/station-3-frucht-leeren-stufen.png` ist ein
+übernommene RGBA-Bild `assets/station-3-frucht-leeren-stufen.webp` ist ein
 4×3-Atlas mit 1448×1086 Pixeln. Vollständiger Prompt und Referenzen:
 `assets/station-3-frucht-leeren-stufen-prompt.txt`. Keine programmatische
 Bildbearbeitung oder Skalierung. Die Fotos zeigen Füllstände; nicht jede
@@ -368,36 +368,31 @@ installiertem edge-tts; `python tools/check-photo-stages-browser.py` mit
 Chromium/ChromeDriver. Einbettung: `python3 tools/pack-ama-audio.py`.
 
 
-## Amas Papa: gespeicherte männliche Sprachausgabe
+## Amas Papa: persönliche Sprachaufnahme
 
-Auch Papas unveränderter Text beim Abholen der Kakaosäcke liegt jetzt in vier
-MP3-Aufnahmen vor. Stimme: `de-DE-ConradNeural`, erwachsen und männlich,
-Tempo `-8%`, natürliche Tonlage (`+0Hz`). Dateien: `assets/audio/papa-*.mp3`;
-Originaltexte und Stimme: `assets/audio/papa-manifest.json`.
-Beide HTML-Ansichten enthalten die Aufnahmen zusätzlich direkt eingebettet.
-Die bestehende Satzwarteschlange wählt anhand von `who` die Aufnahmen von
-Papa oder Ama. Nach Papas letztem Satz spricht Ama mit ihrer eigenen Stimme
-weiter; die jeweils richtige Figur bewegt den Mund. Es gibt keine zusätzliche
-Textanzeige unten im Spiel.
+Papas vier Sätze beim Abholen der Kakaosäcke verwenden jetzt die bereitgestellte
+Aufnahme. Das Original liegt unter `assets/audio/papa-user-aufnahme.m4a`; vier
+MP3-Clips (`papa-user-1.mp3` bis `papa-user-4.mp3`) sind an den Sprechpausen
+geschnitten und in beiden HTML-Ansichten eingebettet. Die Satzwarteschlange
+spielt Papas Sätze nacheinander und lässt anschließend Ama mit ihrer eigenen
+Stimme weiterreden. Die vorhandenen Figurenanimationen bleiben daran gekoppelt.
 
-Erneute Erzeugung mit installiertem edge-tts und FFmpeg:
-`python tools/generate-ama-audio.py --manifest assets/audio/papa-manifest.json`.
-Einbettung: `python tools/pack-ama-audio.py`.
-Geprüft: alle vier Originaltexte, korrekte Stimmzuordnung, Papa→Ama-Reihenfolge,
-Wiedergabeende/Abbruch, identische eingebettete MP3-Daten, JavaScript-Syntax
-beider Ansichten und fehlerfreie FFmpeg-Dekodierung der neuen Aufnahmen.
+Die Zuordnung steht in `assets/audio/papa-manifest.json`. Zum erneuten
+Einbetten nach Audioänderungen: `python tools/pack-ama-audio.py`. Die generierten
+TTS-Dateien bleiben erhalten, werden von Papas aktuellem Manifest aber nicht
+mehr verwendet. Geprüft: `node tools/check-ama-audio.cjs`.
 
 ## Station 5: fotorealistische Trocknungsanlage in Ghana
 
 Die Trocknungsstation verwendet zwei neue Fotografiken einer erhöhten
 Bambusmatte auf Holzstützen: offen mit fermentierten braunen Bohnen und mit
 ausgebreiteter blauer Regenplane. Der vorhandene 360°-Hof
-(`plantage-mit-hof-botanik.png`) dient als Orts- und Gestaltungsvorlage.
+(`plantage-mit-hof-botanik.webp`) dient als Orts- und Gestaltungsvorlage.
 Fachlicher Abgleich zu erhöhten Bambusmatten in Ghana:
 https://www.cocoafederation.com/education/cocoa-production
 
-Grafiken: `assets/station-5-trocknungsanlage-offen.png` und
-`assets/station-5-trocknungsanlage-abgedeckt.png` (je 1536 × 1024).
+Grafiken: `assets/station-5-trocknungsanlage-offen.webp` und
+`assets/station-5-trocknungsanlage-abgedeckt.webp` (je 1536 × 1024).
 Beide mit integriertem image_gen erstellt und zusätzlich im GAME-Dokument
 eingebettet; vollständige Prompts liegen jeweils in der gleichnamigen
 `-prompt.txt`-Datei. Die abgedeckte Ansicht wurde aus der offenen bearbeitet.
@@ -423,9 +418,9 @@ zweite Kronenschicht im Hintergrund. Botanische Referenz:
 https://ecocrop.apps.fao.org/ecocrop/srv/en/cropView?id=2074
 
 Verwendete Bilder (je 1536 × 1024):
-- `assets/station-5-trocknungsanlage-offen-v2.png`
-- `assets/station-5-trocknungsanlage-abgedeckt-v2.png`
-- `assets/station-5-regentropfen.png` (RGBA mit fotografischen Tropfen)
+- `assets/station-5-trocknungsanlage-offen-v2.webp`
+- `assets/station-5-trocknungsanlage-abgedeckt-v2.webp`
+- `assets/station-5-regentropfen.webp` (RGBA mit fotografischen Tropfen)
 
 Alle drei wurden mit integriertem image_gen erstellt. Die vollständigen
 Prompts stehen jeweils in der gleichnamigen `-prompt.txt`-Datei. Die erste
@@ -457,14 +452,14 @@ erhalten. Mehrfachklicks während des Schaufelns zählen nicht zusätzlich; beim
 Schließen werden laufende Bewegungen und Zeitgeber abgebrochen.
 
 Neue Bilddateien, jeweils mit integriertem image_gen erstellt:
-- `assets/station-6-packplatz.png` (1536 × 1024)
-- `assets/station-6-jutesack-fuellstufen.png` (1774 × 887, 4 × 2 Felder; leer,
+- `assets/station-6-packplatz.webp` (1536 × 1024)
+- `assets/station-6-jutesack-fuellstufen.webp` (1774 × 887, 4 × 2 Felder; leer,
   20/40/60/80/100 Prozent offen, voll zugebunden, Ersatz-Endzustand)
-- `assets/station-6-schaufel-und-bohnen.png` (2048 × 683, 3 Felder: beladene
+- `assets/station-6-schaufel-und-bohnen.webp` (2048 × 683, 3 Felder: beladene
   Schaufel, leere Schaufel, fallende trockene Bohnen)
 
 Die vollständigen Prompts stehen in den gleichnamigen `-prompt.txt`-Dateien.
-Als Ortsvorlage diente `station-5-trocknungsanlage-offen-v2.png`. Alle aktiven
+Als Ortsvorlage diente `station-5-trocknungsanlage-offen-v2.webp`. Alle aktiven
 Bilder sind zusätzlich in GAME eingebettet. Der große Sackatlas verwendet
 eine einmalig angelegte Blob-URL, damit die CSS-Hintergrundgrafik auch bei
 Browser-Grenzen für große Daten-URLs zuverlässig sichtbar bleibt.
@@ -483,11 +478,12 @@ Prüfungen für Station 2, 3, 5 sowie Ama-Audio bestanden.
 
 ## Dateigröße: eingebettete Bilder als WebP
 
-GitHub lehnt Dateien über 100 MB ab. Deshalb sind die in `index.html` eingebetteten
-PNG-Bilder als WebP (Qualität 90, Originalauflösung, Transparenz bleibt erhalten)
-gespeichert. Die Datei schrumpft dadurch von 107,1 MB auf 45,8 MB. Die Original-PNGs
-bleiben in `assets/`. Nach dem Einbetten neuer PNGs erneut ausführen (benötigt Pillow):
-`python3 tools/compress-embedded-images.py`.
+GitHub lehnt Dateien über 100 MB ab. Deshalb sind alle Bilder als WebP
+(Qualität 90, Originalauflösung, Transparenz bleibt erhalten) gespeichert, sowohl in
+`index.html` eingebettet als auch unter `assets/`. Die früheren PNG- und JPG-Originale
+sind im Commit „Kakao-Plantage: Station 4 Fermentation mit Fotoszenen“ in der
+Git-Historie erhalten. Nach dem Einbetten neuer PNGs oder JPGs erneut ausführen
+(benötigt Pillow): `python3 tools/compress-embedded-images.py`.
 
 ## Station 4: Fermentation auf Bananenblättern
 
@@ -501,15 +497,15 @@ fermentierten Zustand über. Der vorhandene Temperaturverlauf bis 50 °C bleibt.
 Als fotografische Referenz diente das [Naturata-Foto der Bohnen auf
 Bananenblättern](https://www.naturata.de/fileadmin/_processed_/5/f/csm_Kakao_Cabruca_940x800pixel_9ddc7778a0.jpg).
 Die vier erzeugten und in GAME eingebetteten Bilder liegen optimiert unter
-`assets/station-4-fermentation-offen-v2.jpg`,
-`assets/station-4-fermentation-braun-v2.jpg`,
+`assets/station-4-fermentation-offen-v2.webp`,
+`assets/station-4-fermentation-braun-v2.webp`,
 `assets/station-4-bananenblatt-abdeckung.webp` und
 `assets/station-4-umruehren-paddel.webp`. Die zugehörigen Prompts sind in den
 gleichnamigen `-prompt.txt`-Dateien gespeichert. Bearbeitbare Quellen:
 `tools/station-4-fermentation-setup.js` und
 `tools/station-4-fermentation.css`.
 
-Die erste Bildfassung bleibt als `station-4-fermentation-offen.jpg` und
-`station-4-fermentation-braun.jpg` erhalten. In v2 sind die einzelnen Bohnen
+Die erste Bildfassung bleibt als `station-4-fermentation-offen.webp` und
+`station-4-fermentation-braun.webp` erhalten. In v2 sind die einzelnen Bohnen
 kleiner und zahlreicher, der Haufen nimmt weniger Bildfläche ein und die
 Abdeckung sowie das Paddel sind auf die neuen Proportionen abgestimmt.

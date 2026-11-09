@@ -1,24 +1,25 @@
 {
-  "voice": "de-DE-ConradNeural",
-  "rate": "-8%",
-  "pitch": "+0Hz",
+  "voice": "Eigene Aufnahme (Amas Vater)",
+  "rate": "Originalaufnahme",
+  "pitch": "Originalaufnahme",
   "dash_pause_ms": 350,
   "clips": [
     {
       "text": "Super, dass ihr die Bohnen schon in die Säcke verpackt habt!",
-      "file": "papa-139ff8bfa817.mp3"
+      "file": "papa-user-1.mp3"
     },
     {
       "text": "Jetzt kann ich die Säcke dem Fahrer vom Transporter übergeben.",
-      "file": "papa-5968dffcee95.mp3"
+      "file": "papa-user-2.mp3"
     },
     {
       "text": "Er bringt sie zum Hafen.",
-      "file": "papa-d45c2f0a80b8.mp3"
+      "file": "papa-user-3.mp3"
     },
     {
       "text": "Und heute fahren wir mit!",
-      "file": "papa-9eb3176dd78e.mp3"
+      "file": "papa-user-4.mp3"
     }
-  ]
+  ],
+  "source_recording": "papa-user-aufnahme.m4a"
 }

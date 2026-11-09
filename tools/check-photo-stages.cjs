@@ -3,8 +3,8 @@ const root=path.join(__dirname,'..'),page=fs.readFileSync(path.join(root,'index.
 const a=s.indexOf(' setup(a,api){',s.indexOf("name:'Öffnen'"))+1,b=s.indexOf('\n }},',a),method=s.slice(a,b+3);
 assert.equal(method.trim(),fs.readFileSync(path.join(__dirname,'station-3-photo-stages-setup.js'),'utf8').trim());
 const code=method.replace(/^setup\(a,api\)/,'function(a,api)');
-const png=fs.readFileSync(path.join(root,'assets/station-3-frucht-leeren-stufen.png'));
-assert.equal(png.readUInt32BE(16)/4,png.readUInt32BE(20)/3);assert.equal(png[25],6);
+const png=require('./webp-info.cjs')(fs.readFileSync(path.join(root,'assets/station-3-frucht-leeren-stufen.webp')));
+assert.equal(png.width/4,png.height/3);assert(png.alpha);
 assert(/const OPENING_STAGES="data:image\/webp;base64,[A-Za-z0-9+\/=]+";/.test(s));
 for(const reduced of [false,true])for(const scenario of ['complete','closeCut','closeFlight','detached']){
  let queue=[],counts=[],finished=0,cleanup;

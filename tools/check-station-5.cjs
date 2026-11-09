@@ -4,8 +4,8 @@ const game=Buffer.from(page.match(/id="GAME">([^<]+)/)[1],'base64').toString();
 const station=game.indexOf("name:'Trocknen'");const start=game.indexOf(' setup(a,api){',station)+1,end=game.indexOf('\n }},',start);
 assert(start>0&&end>start);const source=game.slice(start,end+3);assert.equal(source.trim(),fs.readFileSync(path.join(__dirname,'station-5-drying-setup.js'),'utf8').trim());
 const setupCode=source.replace(/^setup\(a,api\)/,'function(a,api)');
-for(const [name,file]of [['DRYING_OPEN','station-5-trocknungsanlage-offen-v2.png'],['DRYING_COVER','station-5-trocknungsanlage-abgedeckt-v2.png'],['DRYING_RAIN','station-5-regentropfen.png']]){
- const png=fs.readFileSync(path.join(__dirname,'../assets',file));assert.equal(png.readUInt32BE(16)/png.readUInt32BE(20),1.5);assert(new RegExp('const '+name+'="data:image/webp;base64,[A-Za-z0-9+/=]+";').test(game));
+for(const [name,file]of [['DRYING_OPEN','station-5-trocknungsanlage-offen-v2.webp'],['DRYING_COVER','station-5-trocknungsanlage-abgedeckt-v2.webp'],['DRYING_RAIN','station-5-regentropfen.webp']]){
+ const png=require('./webp-info.cjs')(fs.readFileSync(path.join(__dirname,'../assets',file)));assert.equal(png.width/png.height,1.5);assert(new RegExp('const '+name+'="data:image/webp;base64,[A-Za-z0-9+/=]+";').test(game));
 }
 function create(){
  const elements={};for(const key of ['.stage','.roof','#roofbtn','.bf','.bar span','.drying-progress','.wicon','.rain']){

@@ -5,8 +5,8 @@ const a=s.indexOf(' setup(a,api){',s.indexOf("name:'Öffnen'"))+1,b=s.indexOf('\
 assert(a>0&&b>a);const code=s.slice(a,b+3).replace(/^setup\(a,api\)/,'function(a,api)');
 const portionSizes=[3,4,2,5,3,4,2,5,4,3,5];
 assert(portionSizes.every(n=>n>=2&&n<=5));assert.equal(portionSizes.reduce((a,b)=>a+b),40);
-const png=fs.readFileSync(path.join(__dirname,'../assets/station-3-frucht-leeren-stufen.png'));
-assert.equal(png.readUInt32BE(16)/4,png.readUInt32BE(20)/3);assert.equal(png[25],6);
+const png=require('./webp-info.cjs')(fs.readFileSync(path.join(__dirname,'../assets/station-3-frucht-leeren-stufen.webp')));
+assert.equal(png.width/4,png.height/3);assert(png.alpha);
 assert(/const OPENING_STAGES="data:image\/webp;base64,[A-Za-z0-9+\/=]+";/.test(s));
 for(const reduced of [false,true])for(const scenario of ['complete','closeCut','closeFlight','detached']){
  let clock=0,queue=[],counts=[],finished=0,animations=[],cleanup;

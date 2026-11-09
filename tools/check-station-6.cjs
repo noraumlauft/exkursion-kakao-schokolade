@@ -2,8 +2,8 @@ const fs=require('fs'),assert=require('assert'),path=require('path');
 const page=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');const game=Buffer.from(page.match(/id="GAME">([^<]+)/)[1],'base64').toString();
 const a=game.indexOf(' setup(a,api){',game.indexOf("name:'Abpacken'"))+1,b=game.indexOf('\n }}\n];',a);assert(a>0&&b>a);
 const source=game.slice(a,b+3);assert.equal(source.trim(),fs.readFileSync(path.join(__dirname,'station-6-packing-setup.js'),'utf8').trim());const setupCode=source.replace(/^setup\(a,api\)/,'function(a,api)');
-for(const [name,file,ratio,alpha] of [['PACKING_SCENE','station-6-packplatz.png',1.5,false],['PACKING_SACKS','station-6-jutesack-fuellstufen.png',2,true],['PACKING_TOOL','station-6-schaufel-und-bohnen.png',3,true]]){
- const png=fs.readFileSync(path.join(__dirname,'../assets',file));assert(Math.abs(png.readUInt32BE(16)-png.readUInt32BE(20)*ratio)<=1);if(alpha)assert.equal(png[25],6);assert(new RegExp('const '+name+'="data:image/webp;base64,[A-Za-z0-9+/=]+";').test(game));
+for(const [name,file,ratio,alpha] of [['PACKING_SCENE','station-6-packplatz.webp',1.5,false],['PACKING_SACKS','station-6-jutesack-fuellstufen.webp',2,true],['PACKING_TOOL','station-6-schaufel-und-bohnen.webp',3,true]]){
+ const png=require('./webp-info.cjs')(fs.readFileSync(path.join(__dirname,'../assets',file)));assert(Math.abs(png.width-png.height*ratio)<=1);if(alpha)assert(png.alpha);assert(new RegExp('const '+name+'="data:image/webp;base64,[A-Za-z0-9+/=]+";').test(game));
 }
 for(const reduced of [false,true])for(const scenario of ['complete','closeLift','closePour','closeTie','detached']){
  let now=0,queue=[],counts=[],finished=0,cleanup;const animations=[];
