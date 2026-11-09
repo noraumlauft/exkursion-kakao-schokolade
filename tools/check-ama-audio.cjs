@@ -52,8 +52,10 @@ assert(source.includes('id="amaAudioRuntime"'));assert(game.includes('id="amaAud
 for(const [label,doc] of [['panorama',source],['game',game]]){
  const data=JSON.parse(doc.match(/const clips=(\{[^\n]+\});/)[1]);
  const papaData=JSON.parse(doc.match(/const papaClips=(\{[^\n]+\});/)[1]);
- for(const c of papaManifest.clips)assert.equal(papaData[c.text],'data:audio/mpeg;base64,'+fs.readFileSync(path.join(root,'assets/audio',c.file)).toString('base64'));
- for(const c of manifest.clips){const bytes=fs.readFileSync(path.join(root,'assets/audio',c.file));assert.equal(data[c.text],'data:audio/mpeg;base64,'+bytes.toString('base64'),label+': embedded audio differs from assets')}
+ const audioUrl=file=>`assets/audio/${file}?v=${require('crypto').createHash('sha256').update(fs.readFileSync(path.join(root,'assets/audio',file))).digest('hex').slice(0,8)}`;
+ for(const c of papaManifest.clips)assert.equal(papaData[c.text],audioUrl(c.file));
+ for(const c of manifest.clips)assert.equal(data[c.text],audioUrl(c.file),label+': audio path differs from assets');
+ assert(!doc.includes('data:audio/'),label+': audio must not be embedded');
 
  for(const m of doc.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g))if(!/type="text\/plain"/.test(m[1]))new vm.Script(m[2],{filename:label});
 }

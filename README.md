@@ -276,8 +276,10 @@ jüngeren Klang. Es handelt sich um eine synthetische Stimme, keine Aufnahme
 eines Kindes. Die MP3s liegen zusätzlich einzeln unter `assets/audio/`.
 `ama-manifest.json` ordnet jede Datei ihrem unveränderten gesprochenen Satz zu.
 
-Die Aufnahmen sind außerdem in beiden Dokumenten eingebettet: Nach dem Laden
-werden für Amas Sprachausgabe keine weiteren Netzwerkzugriffe benötigt.
+Beide Dokumente laden die Aufnahmen aus `assets/audio/`: Beim Öffnen der Seite
+werden alle MP3s im Hintergrund geholt, im Browser-Cache abgelegt und im
+Speicher bereitgehalten. Ein noch nicht geladener Clip wird direkt gestreamt.
+`index.html` braucht deshalb den Ordner `assets/audio/` neben sich.
 Alle Bohnenzahlen von 30 bis 50 und die unterschiedlichen Wegbeschreibungen
 sind vorbereitet. Im Spiel zeigt ein Untertitel jeweils den gesprochenen Satz.
 Begrüßungen verwenden keinen frei eingegebenen Namen, damit die gespeicherte
@@ -352,7 +354,7 @@ Gedankenstriche (–, — und ein alleinstehendes -) erzeugen in den MP3-Dateien
 350 ms zusätzliche Stille zwischen den Satzteilen. Wortbindestriche bleiben
 unverändert. Die Sprachvorlage verwendet „Ahma“ bzw. „Ahmas“, damit ihr Name
 zusammenhängend gesprochen wird; der sichtbare Text lautet weiterhin „Ama“.
-245 MP3s liegen unter `assets/audio/` und sind in beiden Ansichten eingebettet.
+245 MP3s liegen unter `assets/audio/` und werden von beiden Ansichten geladen.
 `ama-manifest.json` enthält die angezeigten Originaltexte, `ama-render-state.json`
 die Prüfsummen der zuletzt erzeugten Sprachvorlagen. Die Erzeugung benötigt
 jetzt zusätzlich FFmpeg. Unveränderte Audios werden beibehalten.
