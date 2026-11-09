@@ -1,0 +1,989 @@
+{
+  "voice": "de-DE-AmalaNeural",
+  "rate": "-8%",
+  "pitch": "+28Hz",
+  "clips": [
+    {
+      "text": "Aber jetzt zeige ich dir erst mal unsere Plantage!",
+      "file": "ama-4dd991948cca.mp3"
+    },
+    {
+      "text": "Aber nur aus ganz wenigen wird wirklich eine Kakaofrucht.",
+      "file": "ama-06fe9e20f7a3.mp3"
+    },
+    {
+      "text": "Aber sie brauchen das ganze Jahr über Wärme und viel Feuchtigkeit.",
+      "file": "ama-20ba4ab11fba.mp3"
+    },
+    {
+      "text": "Am Hafen war ich noch nie – und mein Papa auch nicht!",
+      "file": "ama-f68c40ff9804.mp3"
+    },
+    {
+      "text": "Amas Haus",
+      "file": "ama-3174463f09cf.mp3"
+    },
+    {
+      "text": "Amas Haus.",
+      "file": "ama-4374ff0f4bd0.mp3"
+    },
+    {
+      "text": "An der Farbe: gelb, orange oder rot",
+      "file": "ama-bee485cb8f67.mp3"
+    },
+    {
+      "text": "Auch unsere Plantage liegt dort – deshalb können wir fast das ganze Jahr über Kakaofrüchte ernten.",
+      "file": "ama-720a20021d1b.mp3"
+    },
+    {
+      "text": "Aus den Blüten werden Kakaofrüchte.",
+      "file": "ama-b43c9c3d9665.mp3"
+    },
+    {
+      "text": "Bananenstaude",
+      "file": "ama-c1004e3ca4e3.mp3"
+    },
+    {
+      "text": "Bananenstaude.",
+      "file": "ama-a72856188fab.mp3"
+    },
+    {
+      "text": "Beim Gären wird es im Haufen bis zu 50 °C warm.",
+      "file": "ama-613a49850343.mp3"
+    },
+    {
+      "text": "Da hinten, am Rand der Plantage, ist unser Haus.",
+      "file": "ama-146d6e52973b.mp3"
+    },
+    {
+      "text": "Da wohnt meine ganze Familie drin – wir sind sieben Kinder!",
+      "file": "ama-e31278e7349c.mp3"
+    },
+    {
+      "text": "Dabei werden die Bohnen weniger bitter.",
+      "file": "ama-1e24ca1b8859.mp3"
+    },
+    {
+      "text": "Dafür laufe ich eine Stunde bis ins nächste große Dorf – und nach der Schule eine Stunde wieder zurück.",
+      "file": "ama-4e92566ca686.mp3"
+    },
+    {
+      "text": "Damit sie grün werden",
+      "file": "ama-00fe5c24a402.mp3"
+    },
+    {
+      "text": "Damit sie leichter schwimmen",
+      "file": "ama-2f248c8a5911.mp3"
+    },
+    {
+      "text": "Damit sie weniger bitter werden",
+      "file": "ama-46ba63f75fc6.mp3"
+    },
+    {
+      "text": "Daneben trocknen wir die Kakaobohnen in der Sonne.",
+      "file": "ama-73cd8e3b5408.mp3"
+    },
+    {
+      "text": "Dann sammle die Bohnen ein.",
+      "file": "ama-11c908e819d0.mp3"
+    },
+    {
+      "text": "Darin stecken die Kakaobohnen.",
+      "file": "ama-4ce32e34660f.mp3"
+    },
+    {
+      "text": "Darin wird es richtig warm.",
+      "file": "ama-9574cfcb22e6.mp3"
+    },
+    {
+      "text": "Das dauert ein bis zwei Wochen.",
+      "file": "ama-c01d3909401e.mp3"
+    },
+    {
+      "text": "Das ist einer unserer Kakaobäume.",
+      "file": "ama-d22e0aff131b.mp3"
+    },
+    {
+      "text": "Das ist so schwer wie 60 Packungen Mehl!",
+      "file": "ama-6c4c04821f6b.mp3"
+    },
+    {
+      "text": "Das sind Kakaoblüten.",
+      "file": "ama-bbdc028ab3e6.mp3"
+    },
+    {
+      "text": "Das weiße Fruchtfleisch schmeckt süß und ein bisschen säuerlich.",
+      "file": "ama-3ceff139bbb3.mp3"
+    },
+    {
+      "text": "Deshalb wächst Kakao nur in einem Gürtel rund um den Äquator.",
+      "file": "ama-4e23e7f023c0.mp3"
+    },
+    {
+      "text": "Die Bohnen kommen auf einen Haufen.",
+      "file": "ama-e7338f3cdb93.mp3"
+    },
+    {
+      "text": "Die Bohnen schmecken noch bitter – gar nicht nach Schokolade!",
+      "file": "ama-ff07eea246bf.mp3"
+    },
+    {
+      "text": "Die Bohnen werden dabei braun.",
+      "file": "ama-4d54f8e56f79.mp3"
+    },
+    {
+      "text": "Die Früchte sind nach ein paar Monaten reif.",
+      "file": "ama-5530120c5a99.mp3"
+    },
+    {
+      "text": "Die Säcke kommen auf die Ladefläche.",
+      "file": "ama-b07220a56cfc.mp3"
+    },
+    {
+      "text": "Die Wände sind aus Lehm von unserem roten Boden, und das Dach ist aus Wellblech.",
+      "file": "ama-aa51d5213053.mp3"
+    },
+    {
+      "text": "Die großen Bananenstauden machen Schatten.",
+      "file": "ama-5a4f66765564.mp3"
+    },
+    {
+      "text": "Die grünen bleiben hängen.",
+      "file": "ama-a0459c40b62f.mp3"
+    },
+    {
+      "text": "Die meisten Kakaobohnen der Welt kommen aus Westafrika – vor allem aus der Elfenbeinküste und aus Ghana.",
+      "file": "ama-45eb88059935.mp3"
+    },
+    {
+      "text": "Die trockenen Bohnen kommen in große Säcke.",
+      "file": "ama-6c5438dddf96.mp3"
+    },
+    {
+      "text": "Direkt am Stamm",
+      "file": "ama-4aade650cd3c.mp3"
+    },
+    {
+      "text": "Durch eine Rohrleitung",
+      "file": "ama-d0c550e336ab.mp3"
+    },
+    {
+      "text": "Ein Kakaobaum hat tausende Blüten.",
+      "file": "ama-a02f22c73c67.mp3"
+    },
+    {
+      "text": "Ein Sack wiegt 60 kg.",
+      "file": "ama-1f20a2a806e3.mp3"
+    },
+    {
+      "text": "Einsteigen!",
+      "file": "ama-03c45e8486a1.mp3"
+    },
+    {
+      "text": "Er braucht viel Wärme und Regen.",
+      "file": "ama-69600322f103.mp3"
+    },
+    {
+      "text": "Er wird nicht sehr hoch.",
+      "file": "ama-fac82bba2881.mp3"
+    },
+    {
+      "text": "Ernte nur die reifen Früchte!",
+      "file": "ama-63ba04c5b28f.mp3"
+    },
+    {
+      "text": "Ganz oben in der Krone",
+      "file": "ama-d55306c59e2d.mp3"
+    },
+    {
+      "text": "Gleich holt mein Papa die Säcke ab.",
+      "file": "ama-4a80cc2d6a68.mp3"
+    },
+    {
+      "text": "Gleich kommt mein Papa.",
+      "file": "ama-050918bbeecf.mp3"
+    },
+    {
+      "text": "Gut getrocknete Bohnen schimmeln nicht.",
+      "file": "ama-e246c87e2228.mp3"
+    },
+    {
+      "text": "Gute Reise!",
+      "file": "ama-9bb42a577483.mp3"
+    },
+    {
+      "text": "Hallo, ich bin Ama!",
+      "file": "ama-234eb8798974.mp3"
+    },
+    {
+      "text": "Hast du nicht Lust, uns hier auf der Plantage zu helfen?",
+      "file": "ama-bda087875dee.mp3"
+    },
+    {
+      "text": "Hau ruck!",
+      "file": "ama-b0c1f631a806.mp3"
+    },
+    {
+      "text": "Heute Morgen war ich schon in der Schule.",
+      "file": "ama-d56f6519975c.mp3"
+    },
+    {
+      "text": "Heute fahren wir zum allerersten Mal mit dir und dem Fahrer dorthin.",
+      "file": "ama-4407b1bfbc73.mp3"
+    },
+    {
+      "text": "Hi, ich bin Ama!",
+      "file": "ama-d0938971ef94.mp3"
+    },
+    {
+      "text": "Hier trocknen die Kakaobohnen in der Sonne.",
+      "file": "ama-e41825abf640.mp3"
+    },
+    {
+      "text": "Hier unten liegt eine aufgeschlagene Frucht.",
+      "file": "ama-11de97fe3121.mp3"
+    },
+    {
+      "text": "Hier wohnt Amas Familie, gleich neben der Plantage.",
+      "file": "ama-541bf9dc6f60.mp3"
+    },
+    {
+      "text": "Hier wohnt meine ganze Familie: Mama, Papa, Oma und wir sieben Kinder!",
+      "file": "ama-182d93c0159f.mp3"
+    },
+    {
+      "text": "Ich wohne hier – auf unserer Kakaoplantage in Ghana.",
+      "file": "ama-97e91a5736ac.mp3"
+    },
+    {
+      "text": "Ihre großen Blätter machen Schatten.",
+      "file": "ama-6ca7fcf57080.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 30 Bohnen – sammle alle 30 in die Schüssel!",
+      "file": "ama-aa290d038eda.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 31 Bohnen – sammle alle 31 in die Schüssel!",
+      "file": "ama-5fa1a8c8312d.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 32 Bohnen – sammle alle 32 in die Schüssel!",
+      "file": "ama-1a8d38e84704.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 33 Bohnen – sammle alle 33 in die Schüssel!",
+      "file": "ama-2f5bb8755b25.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 34 Bohnen – sammle alle 34 in die Schüssel!",
+      "file": "ama-3ce28b075a63.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 35 Bohnen – sammle alle 35 in die Schüssel!",
+      "file": "ama-24a2f08c332f.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 36 Bohnen – sammle alle 36 in die Schüssel!",
+      "file": "ama-b239dae60381.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 37 Bohnen – sammle alle 37 in die Schüssel!",
+      "file": "ama-ce587a1911e7.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 38 Bohnen – sammle alle 38 in die Schüssel!",
+      "file": "ama-29a74e69872e.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 39 Bohnen – sammle alle 39 in die Schüssel!",
+      "file": "ama-0430395b3ea0.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 40 Bohnen – sammle alle 40 in die Schüssel!",
+      "file": "ama-6f2d1240666d.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 41 Bohnen – sammle alle 41 in die Schüssel!",
+      "file": "ama-1c98f0cbc61f.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 42 Bohnen – sammle alle 42 in die Schüssel!",
+      "file": "ama-5e9e21439885.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 43 Bohnen – sammle alle 43 in die Schüssel!",
+      "file": "ama-0c40299d7f21.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 44 Bohnen – sammle alle 44 in die Schüssel!",
+      "file": "ama-e0af4a29032f.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 45 Bohnen – sammle alle 45 in die Schüssel!",
+      "file": "ama-0f31d6f3bd42.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 46 Bohnen – sammle alle 46 in die Schüssel!",
+      "file": "ama-e2bd33263eca.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 47 Bohnen – sammle alle 47 in die Schüssel!",
+      "file": "ama-93235b83bc35.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 48 Bohnen – sammle alle 48 in die Schüssel!",
+      "file": "ama-c90028fb8a26.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 49 Bohnen – sammle alle 49 in die Schüssel!",
+      "file": "ama-a85a421b1ffa.mp3"
+    },
+    {
+      "text": "In dieser Frucht sind 50 Bohnen – sammle alle 50 in die Schüssel!",
+      "file": "ama-b45a54b00f52.mp3"
+    },
+    {
+      "text": "In einer Kakaofrucht stecken 30 bis 50 Bohnen.",
+      "file": "ama-9248227e3e89.mp3"
+    },
+    {
+      "text": "Innen ist weißes, süßes Fruchtfleisch.",
+      "file": "ama-179b8bda9a24.mp3"
+    },
+    {
+      "text": "Innen sind die Kakaobohnen.",
+      "file": "ama-91a499d972f4.mp3"
+    },
+    {
+      "text": "Jede einzelne Frucht wird von Hand geerntet.",
+      "file": "ama-3140e7088914.mp3"
+    },
+    {
+      "text": "Jetzt ist früher Nachmittag.",
+      "file": "ama-2d7983a1fd35.mp3"
+    },
+    {
+      "text": "Jetzt müssen die Bohnen in der Sonne trocknen.",
+      "file": "ama-0b61d338f868.mp3"
+    },
+    {
+      "text": "Jetzt schlagen wir die Frucht auf.",
+      "file": "ama-3021ef744aa8.mp3"
+    },
+    {
+      "text": "Kakaobaum",
+      "file": "ama-f638d0fa8306.mp3"
+    },
+    {
+      "text": "Kakaobaum.",
+      "file": "ama-b55ef73e600a.mp3"
+    },
+    {
+      "text": "Kakaoblüte",
+      "file": "ama-046463f722f8.mp3"
+    },
+    {
+      "text": "Kakaobäume mögen keine pralle Sonne.",
+      "file": "ama-2fd3ee98cc90.mp3"
+    },
+    {
+      "text": "Kakaobäume mögen nämlich keine pralle Sonne.",
+      "file": "ama-14ddfb113ef8.mp3"
+    },
+    {
+      "text": "Kakaofrucht",
+      "file": "ama-4544b71c888b.mp3"
+    },
+    {
+      "text": "Kakaofrucht.",
+      "file": "ama-5d415e314f1f.mp3"
+    },
+    {
+      "text": "Kakaofrüchte fallen nicht von selbst herunter.",
+      "file": "ama-19f326ddf26b.mp3"
+    },
+    {
+      "text": "Kinder auf den Plantagen lutschen es gern.",
+      "file": "ama-1248e75bbe0c.mp3"
+    },
+    {
+      "text": "Komm mit!",
+      "file": "ama-ea89cd24d3ad.mp3"
+    },
+    {
+      "text": "Komm, steig ein!",
+      "file": "ama-80c0fd8d4393.mp3"
+    },
+    {
+      "text": "Lass 6 Tage vergehen – und vergiss das Umschichten nicht!",
+      "file": "ama-d3d10f213adf.mp3"
+    },
+    {
+      "text": "Lauf zu Station 1: Kakaobaum",
+      "file": "ama-81bffb1d58d3.mp3"
+    },
+    {
+      "text": "Lauf zu Station 1: Kakaobaum – du brauchst den Korb mit fermentierten Bohnen",
+      "file": "ama-9b4483e3a2cf.mp3"
+    },
+    {
+      "text": "Lauf zu Station 1: Kakaobaum – du brauchst den Korb mit getrockneten Bohnen",
+      "file": "ama-ba560cba9971.mp3"
+    },
+    {
+      "text": "Lauf zu Station 1: Kakaobaum – du brauchst den Korb mit reifen Früchten",
+      "file": "ama-149f66f4992e.mp3"
+    },
+    {
+      "text": "Lauf zu Station 1: Kakaobaum – du brauchst die Machete",
+      "file": "ama-c553138713ce.mp3"
+    },
+    {
+      "text": "Lauf zu Station 1: Kakaobaum – du brauchst die Schüssel mit Bohnen",
+      "file": "ama-341be922f822.mp3"
+    },
+    {
+      "text": "Lauf zu Station 1: Kakaobaum – heb unterwegs die Machete auf",
+      "file": "ama-a7ccd5cba014.mp3"
+    },
+    {
+      "text": "Lauf zu Station 1: Kakaobaum – nimm den Korb mit fermentierten Bohnen mit",
+      "file": "ama-1e220f1dc7c0.mp3"
+    },
+    {
+      "text": "Lauf zu Station 1: Kakaobaum – nimm den Korb mit getrockneten Bohnen mit",
+      "file": "ama-b25264ecd1a7.mp3"
+    },
+    {
+      "text": "Lauf zu Station 1: Kakaobaum – nimm den Korb mit reifen Früchten mit",
+      "file": "ama-329dd6b31d9d.mp3"
+    },
+    {
+      "text": "Lauf zu Station 1: Kakaobaum – nimm die Machete mit",
+      "file": "ama-561b773ad1a0.mp3"
+    },
+    {
+      "text": "Lauf zu Station 1: Kakaobaum – nimm die Schüssel mit Bohnen mit",
+      "file": "ama-ef7071965fb1.mp3"
+    },
+    {
+      "text": "Lauf zu Station 2: Ernte",
+      "file": "ama-df74fa5cb318.mp3"
+    },
+    {
+      "text": "Lauf zu Station 2: Ernte – du brauchst den Korb mit fermentierten Bohnen",
+      "file": "ama-e1551c43311b.mp3"
+    },
+    {
+      "text": "Lauf zu Station 2: Ernte – du brauchst den Korb mit getrockneten Bohnen",
+      "file": "ama-7b4ce51b5566.mp3"
+    },
+    {
+      "text": "Lauf zu Station 2: Ernte – du brauchst den Korb mit reifen Früchten",
+      "file": "ama-247d1c8277a9.mp3"
+    },
+    {
+      "text": "Lauf zu Station 2: Ernte – du brauchst die Machete",
+      "file": "ama-36c5e6f321d9.mp3"
+    },
+    {
+      "text": "Lauf zu Station 2: Ernte – du brauchst die Schüssel mit Bohnen",
+      "file": "ama-da2f8caed846.mp3"
+    },
+    {
+      "text": "Lauf zu Station 2: Ernte – heb unterwegs die Machete auf",
+      "file": "ama-887bd9eb0b28.mp3"
+    },
+    {
+      "text": "Lauf zu Station 2: Ernte – nimm den Korb mit fermentierten Bohnen mit",
+      "file": "ama-2f9ccdc04b97.mp3"
+    },
+    {
+      "text": "Lauf zu Station 2: Ernte – nimm den Korb mit getrockneten Bohnen mit",
+      "file": "ama-5220df9c28c7.mp3"
+    },
+    {
+      "text": "Lauf zu Station 2: Ernte – nimm den Korb mit reifen Früchten mit",
+      "file": "ama-4dbedb821b86.mp3"
+    },
+    {
+      "text": "Lauf zu Station 2: Ernte – nimm die Machete mit",
+      "file": "ama-2288fad23627.mp3"
+    },
+    {
+      "text": "Lauf zu Station 2: Ernte – nimm die Schüssel mit Bohnen mit",
+      "file": "ama-417994f91a1a.mp3"
+    },
+    {
+      "text": "Lauf zu Station 3: Öffnen",
+      "file": "ama-fec77993cca8.mp3"
+    },
+    {
+      "text": "Lauf zu Station 3: Öffnen – du brauchst den Korb mit fermentierten Bohnen",
+      "file": "ama-30980d838056.mp3"
+    },
+    {
+      "text": "Lauf zu Station 3: Öffnen – du brauchst den Korb mit getrockneten Bohnen",
+      "file": "ama-ed6d3695664a.mp3"
+    },
+    {
+      "text": "Lauf zu Station 3: Öffnen – du brauchst den Korb mit reifen Früchten",
+      "file": "ama-27becd5f3296.mp3"
+    },
+    {
+      "text": "Lauf zu Station 3: Öffnen – du brauchst die Machete",
+      "file": "ama-a8755cf23da5.mp3"
+    },
+    {
+      "text": "Lauf zu Station 3: Öffnen – du brauchst die Schüssel mit Bohnen",
+      "file": "ama-878c6493119f.mp3"
+    },
+    {
+      "text": "Lauf zu Station 3: Öffnen – heb unterwegs die Machete auf",
+      "file": "ama-9a708e51433e.mp3"
+    },
+    {
+      "text": "Lauf zu Station 3: Öffnen – nimm den Korb mit fermentierten Bohnen mit",
+      "file": "ama-78aec39a5bf4.mp3"
+    },
+    {
+      "text": "Lauf zu Station 3: Öffnen – nimm den Korb mit getrockneten Bohnen mit",
+      "file": "ama-10bb2a5741d9.mp3"
+    },
+    {
+      "text": "Lauf zu Station 3: Öffnen – nimm den Korb mit reifen Früchten mit",
+      "file": "ama-d43e275ea7cd.mp3"
+    },
+    {
+      "text": "Lauf zu Station 3: Öffnen – nimm die Machete mit",
+      "file": "ama-ae19f2462c31.mp3"
+    },
+    {
+      "text": "Lauf zu Station 3: Öffnen – nimm die Schüssel mit Bohnen mit",
+      "file": "ama-217868707a81.mp3"
+    },
+    {
+      "text": "Lauf zu Station 4: Gären",
+      "file": "ama-8a502488a41b.mp3"
+    },
+    {
+      "text": "Lauf zu Station 4: Gären – du brauchst den Korb mit fermentierten Bohnen",
+      "file": "ama-a1a84b69e3a1.mp3"
+    },
+    {
+      "text": "Lauf zu Station 4: Gären – du brauchst den Korb mit getrockneten Bohnen",
+      "file": "ama-cee1355544fb.mp3"
+    },
+    {
+      "text": "Lauf zu Station 4: Gären – du brauchst den Korb mit reifen Früchten",
+      "file": "ama-d2c7357fb574.mp3"
+    },
+    {
+      "text": "Lauf zu Station 4: Gären – du brauchst die Machete",
+      "file": "ama-234de3db58ef.mp3"
+    },
+    {
+      "text": "Lauf zu Station 4: Gären – du brauchst die Schüssel mit Bohnen",
+      "file": "ama-053d5c9ccb27.mp3"
+    },
+    {
+      "text": "Lauf zu Station 4: Gären – heb unterwegs die Machete auf",
+      "file": "ama-c5818d817c05.mp3"
+    },
+    {
+      "text": "Lauf zu Station 4: Gären – nimm den Korb mit fermentierten Bohnen mit",
+      "file": "ama-e0a55bc2dbf3.mp3"
+    },
+    {
+      "text": "Lauf zu Station 4: Gären – nimm den Korb mit getrockneten Bohnen mit",
+      "file": "ama-1f5c01ec4dd5.mp3"
+    },
+    {
+      "text": "Lauf zu Station 4: Gären – nimm den Korb mit reifen Früchten mit",
+      "file": "ama-b0dcfa08e471.mp3"
+    },
+    {
+      "text": "Lauf zu Station 4: Gären – nimm die Machete mit",
+      "file": "ama-e85f419c7713.mp3"
+    },
+    {
+      "text": "Lauf zu Station 4: Gären – nimm die Schüssel mit Bohnen mit",
+      "file": "ama-8722adfde390.mp3"
+    },
+    {
+      "text": "Lauf zu Station 5: Trocknen",
+      "file": "ama-00cdf19612e7.mp3"
+    },
+    {
+      "text": "Lauf zu Station 5: Trocknen – du brauchst den Korb mit fermentierten Bohnen",
+      "file": "ama-be0b2bdff03e.mp3"
+    },
+    {
+      "text": "Lauf zu Station 5: Trocknen – du brauchst den Korb mit getrockneten Bohnen",
+      "file": "ama-756a30d140a7.mp3"
+    },
+    {
+      "text": "Lauf zu Station 5: Trocknen – du brauchst den Korb mit reifen Früchten",
+      "file": "ama-90c052eb8ced.mp3"
+    },
+    {
+      "text": "Lauf zu Station 5: Trocknen – du brauchst die Machete",
+      "file": "ama-ce98779b2f6c.mp3"
+    },
+    {
+      "text": "Lauf zu Station 5: Trocknen – du brauchst die Schüssel mit Bohnen",
+      "file": "ama-5b2afb94cb42.mp3"
+    },
+    {
+      "text": "Lauf zu Station 5: Trocknen – heb unterwegs die Machete auf",
+      "file": "ama-20f2d462b953.mp3"
+    },
+    {
+      "text": "Lauf zu Station 5: Trocknen – nimm den Korb mit fermentierten Bohnen mit",
+      "file": "ama-688c000cffa6.mp3"
+    },
+    {
+      "text": "Lauf zu Station 5: Trocknen – nimm den Korb mit getrockneten Bohnen mit",
+      "file": "ama-d83a6a34a83a.mp3"
+    },
+    {
+      "text": "Lauf zu Station 5: Trocknen – nimm den Korb mit reifen Früchten mit",
+      "file": "ama-15d7c472b502.mp3"
+    },
+    {
+      "text": "Lauf zu Station 5: Trocknen – nimm die Machete mit",
+      "file": "ama-57b307c91d04.mp3"
+    },
+    {
+      "text": "Lauf zu Station 5: Trocknen – nimm die Schüssel mit Bohnen mit",
+      "file": "ama-5457ade58d63.mp3"
+    },
+    {
+      "text": "Lauf zu Station 6: Abpacken",
+      "file": "ama-c47e83e57499.mp3"
+    },
+    {
+      "text": "Lauf zu Station 6: Abpacken – du brauchst den Korb mit fermentierten Bohnen",
+      "file": "ama-1c5dbe51a559.mp3"
+    },
+    {
+      "text": "Lauf zu Station 6: Abpacken – du brauchst den Korb mit getrockneten Bohnen",
+      "file": "ama-0bdbf7e5fffc.mp3"
+    },
+    {
+      "text": "Lauf zu Station 6: Abpacken – du brauchst den Korb mit reifen Früchten",
+      "file": "ama-d9e18951650d.mp3"
+    },
+    {
+      "text": "Lauf zu Station 6: Abpacken – du brauchst die Machete",
+      "file": "ama-e9d46941e464.mp3"
+    },
+    {
+      "text": "Lauf zu Station 6: Abpacken – du brauchst die Schüssel mit Bohnen",
+      "file": "ama-b6881e986569.mp3"
+    },
+    {
+      "text": "Lauf zu Station 6: Abpacken – heb unterwegs die Machete auf",
+      "file": "ama-27f15ff3f114.mp3"
+    },
+    {
+      "text": "Lauf zu Station 6: Abpacken – nimm den Korb mit fermentierten Bohnen mit",
+      "file": "ama-c2c13a621502.mp3"
+    },
+    {
+      "text": "Lauf zu Station 6: Abpacken – nimm den Korb mit getrockneten Bohnen mit",
+      "file": "ama-1a0121d89a67.mp3"
+    },
+    {
+      "text": "Lauf zu Station 6: Abpacken – nimm den Korb mit reifen Früchten mit",
+      "file": "ama-7d33b7d98562.mp3"
+    },
+    {
+      "text": "Lauf zu Station 6: Abpacken – nimm die Machete mit",
+      "file": "ama-b391a166735d.mp3"
+    },
+    {
+      "text": "Lauf zu Station 6: Abpacken – nimm die Schüssel mit Bohnen mit",
+      "file": "ama-fea5c230e453.mp3"
+    },
+    {
+      "text": "Los geht's zum Hafen.",
+      "file": "ama-5101b03957ae.mp3"
+    },
+    {
+      "text": "Mein jüngster Bruder heißt Kofi.",
+      "file": "ama-4a2bb6248f59.mp3"
+    },
+    {
+      "text": "Mit dem Fahrrad",
+      "file": "ama-e9f2044a1611.mp3"
+    },
+    {
+      "text": "Mit dem Schiff",
+      "file": "ama-775cbf3b9d2c.mp3"
+    },
+    {
+      "text": "Mit dem Transporter geht es zum Hafen!",
+      "file": "ama-4552087a496b.mp3"
+    },
+    {
+      "text": "Nach der Schule helfe ich hier auf der Plantage.",
+      "file": "ama-30a34d48b9c4.mp3"
+    },
+    {
+      "text": "Nur dann wird daraus eine Frucht.",
+      "file": "ama-194da9334f68.mp3"
+    },
+    {
+      "text": "Oh, ist das holprig!",
+      "file": "ama-afc4c158096e.mp3"
+    },
+    {
+      "text": "Pass aufs Wetter auf: Bei Regen Plane drauf, bei Sonne Plane runter!",
+      "file": "ama-33010b018132.mp3"
+    },
+    {
+      "text": "Reife Früchte sind gelb, orange oder rot.",
+      "file": "ama-69090b07b852.mp3"
+    },
+    {
+      "text": "Schau mal, das ist unser Haus!",
+      "file": "ama-3b9710a4f2b8.mp3"
+    },
+    {
+      "text": "Schau mal: Unsere Säcke kommen in den Container.",
+      "file": "ama-12e67ff0bfca.mp3"
+    },
+    {
+      "text": "Schau, da vorne sitzt meine Oma und kocht auf dem Feuer – für uns alle.",
+      "file": "ama-af348c3c1128.mp3"
+    },
+    {
+      "text": "Schaufle die Bohnen in den Sack, bis er voll ist.",
+      "file": "ama-25e08785bcff.mp3"
+    },
+    {
+      "text": "Schön, dich kennenzulernen!",
+      "file": "ama-888cb416cad9.mp3"
+    },
+    {
+      "text": "Sie fällt von allein herunter",
+      "file": "ama-ad7963ad66e1.mp3"
+    },
+    {
+      "text": "Sie ist ganz klein",
+      "file": "ama-e953f930243c.mp3"
+    },
+    {
+      "text": "Sie liegen im weißen, süßen Fruchtfleisch, und wir lösen sie heraus.",
+      "file": "ama-71371bf9a738.mp3"
+    },
+    {
+      "text": "Sie wachsen direkt am Stamm.",
+      "file": "ama-b779eef3459f.mp3"
+    },
+    {
+      "text": "Sie wächst direkt am Stamm.",
+      "file": "ama-6530e1dbf35d.mp3"
+    },
+    {
+      "text": "Siehst du die Bohnen im weißen Fruchtfleisch?",
+      "file": "ama-487efe145223.mp3"
+    },
+    {
+      "text": "Siehst du die kleinen Blüten am Stamm?",
+      "file": "ama-1f1f65e11b43.mp3"
+    },
+    {
+      "text": "Siehst du die kleinen weißen Blüten am Stamm?",
+      "file": "ama-faf71d4aa03c.mp3"
+    },
+    {
+      "text": "So halten sie die lange Reise nach Europa aus.",
+      "file": "ama-48e9bc90fefc.mp3"
+    },
+    {
+      "text": "Später fahren wir mit dem Transporter!",
+      "file": "ama-6249aae24807.mp3"
+    },
+    {
+      "text": "Später muss ich noch Wasser holen.",
+      "file": "ama-800628126398.mp3"
+    },
+    {
+      "text": "Tippe auf die Blüten und hilf den Mücken beim Bestäuben!",
+      "file": "ama-d27a184f599b.mp3"
+    },
+    {
+      "text": "Tippe auf die Frucht, bis sie aufgeht.",
+      "file": "ama-fc04c2fcdc57.mp3"
+    },
+    {
+      "text": "Toll, dass du uns hilfst.",
+      "file": "ama-7b9e1f0ccd79.mp3"
+    },
+    {
+      "text": "Trockenplatz",
+      "file": "ama-61a43439554a.mp3"
+    },
+    {
+      "text": "Trockenplatz.",
+      "file": "ama-84457eab3904.mp3"
+    },
+    {
+      "text": "Tschüss, Kakaobohnen!",
+      "file": "ama-d8fe64365381.mp3"
+    },
+    {
+      "text": "Und dann hebt der Kran den Container aufs Schiff.",
+      "file": "ama-c14dffea50b8.mp3"
+    },
+    {
+      "text": "Und es entstehen Stoffe, aus denen später beim Rösten der Schokoladengeschmack wird.",
+      "file": "ama-5a5c3a8216b3.mp3"
+    },
+    {
+      "text": "Unter der Erde",
+      "file": "ama-20ba835a01fc.mp3"
+    },
+    {
+      "text": "Von der Plantage komme ich sonst nur weg, wenn ich zur Schule laufe.",
+      "file": "ama-828e2106b0cf.mp3"
+    },
+    {
+      "text": "Warum werden die Bohnen fermentiert?",
+      "file": "ama-61a3f5e36e72.mp3"
+    },
+    {
+      "text": "Weißt du was?",
+      "file": "ama-bbc0c4ae8493.mp3"
+    },
+    {
+      "text": "Wenn Regen kommt, legen wir schnell eine Plane darüber!",
+      "file": "ama-6d39a06714cf.mp3"
+    },
+    {
+      "text": "Wie heißt du?",
+      "file": "ama-2753e4860651.mp3"
+    },
+    {
+      "text": "Wie kommen die Kakaobohnen nach Europa?",
+      "file": "ama-77a89b092d93.mp3"
+    },
+    {
+      "text": "Willkommen zurück!",
+      "file": "ama-71822b9192d0.mp3"
+    },
+    {
+      "text": "Winzige Mücken bestäuben sie.",
+      "file": "ama-ce67d9610a36.mp3"
+    },
+    {
+      "text": "Wir decken sie mit Bananenblättern zu.",
+      "file": "ama-06c08135cb86.mp3"
+    },
+    {
+      "text": "Wir gehen zusammen zu sechs Stationen.",
+      "file": "ama-daab15837a2f.mp3"
+    },
+    {
+      "text": "Wir machen bei Station 1 weiter.",
+      "file": "ama-15e1860f218d.mp3"
+    },
+    {
+      "text": "Wir machen bei Station 2 weiter.",
+      "file": "ama-ae0575e5a73f.mp3"
+    },
+    {
+      "text": "Wir machen bei Station 3 weiter.",
+      "file": "ama-3f54c863fd16.mp3"
+    },
+    {
+      "text": "Wir machen bei Station 4 weiter.",
+      "file": "ama-605b04958e19.mp3"
+    },
+    {
+      "text": "Wir machen bei Station 5 weiter.",
+      "file": "ama-7d3cccc1e7b7.mp3"
+    },
+    {
+      "text": "Wir machen bei Station 6 weiter.",
+      "file": "ama-4eabe5701f40.mp3"
+    },
+    {
+      "text": "Wir schneiden sie vorsichtig vom Baum.",
+      "file": "ama-c97102c3428c.mp3"
+    },
+    {
+      "text": "Wir sind schon am Hafen.",
+      "file": "ama-04878e056bf6.mp3"
+    },
+    {
+      "text": "Wir sind wieder auf der Plantage.",
+      "file": "ama-693e948b07f7.mp3"
+    },
+    {
+      "text": "Wo wachsen die Blüten des Kakaobaums?",
+      "file": "ama-c7d3b768304a.mp3"
+    },
+    {
+      "text": "Woran erkennt man eine reife Kakaofrucht?",
+      "file": "ama-0f4a403075bf.mp3"
+    },
+    {
+      "text": "Wow, das ist das Meer!",
+      "file": "ama-5b348b17d2a3.mp3"
+    },
+    {
+      "text": "Wusstest du?",
+      "file": "ama-5244d81019ce.mp3"
+    },
+    {
+      "text": "Zum Hafen fahren wir mit dem Transporter.",
+      "file": "ama-209dd08d6aa8.mp3"
+    },
+    {
+      "text": "Zum Hafen ist es viel zu weit zum Laufen.",
+      "file": "ama-1c854424bb31.mp3"
+    },
+    {
+      "text": "aufgeschlagene Kakaofrucht",
+      "file": "ama-afca00e2a2bc.mp3"
+    },
+    {
+      "text": "aufgeschlagene Kakaofrucht.",
+      "file": "ama-9c6c0b47b252.mp3"
+    },
+    {
+      "text": "Überall um uns herum wachsen Kakaobäume.",
+      "file": "ama-e3b914925518.mp3"
+    },
+    {
+      "text": "– du brauchst den Kakaosack",
+      "file": "ama-db720293f426.mp3"
+    },
+    {
+      "text": "– nimm den Kakaosack mit",
+      "file": "ama-6db9816b70f8.mp3"
+    },
+    {
+      "text": "Die weißen Wölbungen sind das Fruchtfleisch um die einzelnen Kakaobohnen.",
+      "file": "ama-bef218d0cd57.mp3"
+    },
+    {
+      "text": "Viele Bohnen liegen darunter verborgen.",
+      "file": "ama-974d6fae75ee.mp3"
+    },
+    {
+      "text": "Feine Fasern verbinden sie im Inneren der Frucht.",
+      "file": "ama-97dd0e0d1ff3.mp3"
+    },
+    {
+      "text": "Nimm immer 2 bis 5 Bohnen mit ihrem Fruchtfleisch heraus, bis die Frucht leer ist.",
+      "file": "ama-20911642536a.mp3"
+    }
+  ],
+  "dash_pause_ms": 350,
+  "name_pronunciation": "Ahma"
+}

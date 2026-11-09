@@ -1,0 +1,21 @@
+Use case: precise-object-edit.
+Asset type: photorealistic sprite atlas for an educational cacao harvesting game.
+Input image 1 is the edit target and anatomy/color/lighting reference. Use ONLY its central opened cacao half as the subject. Input image 2 is a reference for fresh white mucilage-covered cacao beans.
+Create ONE 4-column by 3-row regular sprite sheet containing TWELVE progressive emptying states of THE SAME opened red/orange cacao pod half, on genuine transparent alpha background. Each cell is square. Each half stays vertical, stalk at top, tapered tip at bottom, same size, same position, same shell shape, same rind, same overhead camera, same soft daylight and photographic detail in all 12 cells. Pod occupies about 60 percent cell width and 92 percent cell height, with clear transparent gutters. No lines or labels.
+Reading order left to right, top to bottom:
+1 Full, compact long cohesive white pulp-and-seed core, with many seeds hidden beneath the visible lobes.
+2 A small cluster of 3 beans removed at the upper tip, small real cavity exposed.
+3 Another 4 beans removed, more upper inner rind exposed and deeper remaining seeds visible.
+4 Another 2 removed, subtly larger cavity.
+5 Another 5 removed, upper third largely hollow.
+6 Another 3 removed, near half empty.
+7 Another 4 removed, upper half hollow, remaining fresh seed mass occupies lower half.
+8 Another 2 removed, slightly less remaining.
+9 Another 5 removed, only lower third has beans.
+10 Another 4 removed, only a small lower cluster remains.
+11 Another 3 removed, final cluster of around five beans remains near lower tip.
+12 Entirely empty natural fibrous pale yellow/ivory inner shell, no beans.
+These represent a total of 40 beans in multiple depths; do NOT try to show all 40 in the first cell. Every step physically removes a SMALL CLUSTER of 2–5 fresh beans and their white pulp, progressively revealing believable tan/ivory fibrous inner walls and torn delicate fibers. Removed material is absent, not sitting beside the pod. The later states must NEVER regain seeds or pulp and the rind MUST NOT change shape, hue, scale or location.
+Real macro food photography, organic wet translucent cream mucilage, slightly irregular interlocking oval lobes, thin fibers; not garlic, pearls, rice, purple cut beans, or a flat white cutout. Empty area is realistically textured inner pod wall, NEVER transparent holes or geometrical missing polygons. NO drawn illustration, no cartoon, no text, no human, no hand, no background tabletop, no duplicated separate pods in each cell. Preserve genuine alpha transparency. Canvas aspect ratio 4:3.
+
+Generated with built-in image_gen. References: station-3-frucht-referenz-kern.png (edit target) and station-3-frische-bohnen-varianten.png (fresh bean reference). Native 1448 × 1086 RGBA, 4 columns × 3 rows. No image resizing, no programmatic image edits. Game amounts: 40 beans; portions 3, 4, 2, 5, 3, 4, 2, 5, 4, 3, 5. Photographs illustrate the progressive filling level; not every hidden bean is individually visible.

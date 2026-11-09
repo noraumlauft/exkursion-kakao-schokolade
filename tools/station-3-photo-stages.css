@@ -1,0 +1,8 @@
+.opening-photo .emptying-half{border:0;padding:0;background:none;appearance:none;overflow:visible}
+.opening-photo .extraction-pod{cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.opening-photo .extraction-pod:disabled{opacity:1;cursor:default}
+.opening-photo .extraction-pod:focus-visible{outline:3px solid #ffef9e;outline-offset:-15px;border-radius:45%}
+.opening-photo .emptying-photo{position:absolute;inset:0;display:block;background-image:var(--opening-stages);background-size:400% 300%;background-position:var(--stage-x,0%) var(--stage-y,0%);background-repeat:no-repeat;pointer-events:none}
+.opening-photo .portion-flight{position:absolute;z-index:6;pointer-events:none}
+.opening-photo .portion-bean{position:absolute;display:block;background-image:var(--opening-bean);background-size:300% 100%;background-position:var(--bean-cell,0%) 0;background-repeat:no-repeat;pointer-events:none}
+.opening-photo .bowl .bin{overflow:hidden;border-radius:20% 20% 45% 45%}
