@@ -488,3 +488,28 @@ PNG-Bilder als WebP (Qualität 90, Originalauflösung, Transparenz bleibt erhalt
 gespeichert. Die Datei schrumpft dadurch von 107,1 MB auf 45,8 MB. Die Original-PNGs
 bleiben in `assets/`. Nach dem Einbetten neuer PNGs erneut ausführen (benötigt Pillow):
 `python3 tools/compress-embedded-images.py`.
+
+## Station 4: Fermentation auf Bananenblättern
+
+Die Bohnen liegen als flacher, breiter Haufen auf einem Bett aus großen,
+überlappenden Bananenblättern im ghanaischen Plantagenwald. Zu Beginn deckt man
+den Haufen mit Bananenblättern ab. An Tag 2 und 4 wird er zum Durchrühren
+aufgedeckt; danach werden die Blätter wieder darübergelegt. Im Verlauf der
+sechs Tage blendet die frische, weiß umhüllte Bohnenmasse in den braunen
+fermentierten Zustand über. Der vorhandene Temperaturverlauf bis 50 °C bleibt.
+
+Als fotografische Referenz diente das [Naturata-Foto der Bohnen auf
+Bananenblättern](https://www.naturata.de/fileadmin/_processed_/5/f/csm_Kakao_Cabruca_940x800pixel_9ddc7778a0.jpg).
+Die vier erzeugten und in GAME eingebetteten Bilder liegen optimiert unter
+`assets/station-4-fermentation-offen-v2.jpg`,
+`assets/station-4-fermentation-braun-v2.jpg`,
+`assets/station-4-bananenblatt-abdeckung.webp` und
+`assets/station-4-umruehren-paddel.webp`. Die zugehörigen Prompts sind in den
+gleichnamigen `-prompt.txt`-Dateien gespeichert. Bearbeitbare Quellen:
+`tools/station-4-fermentation-setup.js` und
+`tools/station-4-fermentation.css`.
+
+Die erste Bildfassung bleibt als `station-4-fermentation-offen.jpg` und
+`station-4-fermentation-braun.jpg` erhalten. In v2 sind die einzelnen Bohnen
+kleiner und zahlreicher, der Haufen nimmt weniger Bildfläche ein und die
+Abdeckung sowie das Paddel sind auf die neuen Proportionen abgestimmt.

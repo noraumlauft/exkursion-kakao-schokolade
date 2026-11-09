@@ -1,0 +1,12 @@
+.ferment-photo{height:auto!important;aspect-ratio:3/2;width:100%;max-width:calc(58vh * 1.5);margin:auto;background:#244421;isolation:isolate}
+.ferment-scene{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.ferment-brown{opacity:0;transition:opacity 1.1s ease}
+.ferment-cover{position:absolute;z-index:3;left:13%;bottom:0;width:74%;height:auto;opacity:0;transform:translateY(8%) scale(.94);transform-origin:50% 90%;transition:opacity .7s ease,transform .7s ease;pointer-events:none}
+.ferment-photo.is-covered .ferment-cover{opacity:1;transform:translateY(0) scale(1)}
+.ferment-paddle{position:absolute;z-index:4;left:39%;top:34%;width:50%;height:auto;opacity:0;transform:translate(4%,5%) rotate(-5deg);transform-origin:70% 35%;pointer-events:none}
+.ferment-photo.needs-turn .ferment-paddle,.ferment-photo.is-turning .ferment-paddle{opacity:1;transition:opacity .25s ease}
+.ferment-photo.is-turning .ferment-paddle{animation:ferment-stir .9s ease-in-out both}
+@keyframes ferment-stir{0%{transform:translate(4%,5%) rotate(-5deg)}35%{transform:translate(-5%,-5%) rotate(3deg)}68%{transform:translate(2%,3%) rotate(-8deg)}100%{transform:translate(4%,5%) rotate(-5deg)}}
+.ferment-photo .daylbl,.ferment-photo .tlbl,.ferment-photo .thermo{z-index:5}
+@media(max-width:520px){.ferment-photo{max-width:min(100%,calc(58vh * 1.5))}.ferment-cover{left:8%;width:84%;bottom:0}.ferment-paddle{left:37%;top:32%;width:54%}}
+@media(prefers-reduced-motion:reduce){.ferment-cover,.ferment-brown,.ferment-paddle{transition:none!important}.ferment-photo.is-turning .ferment-paddle{animation-duration:.02ms}}
