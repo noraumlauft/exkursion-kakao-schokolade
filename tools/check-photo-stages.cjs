@@ -5,7 +5,7 @@ assert.equal(method.trim(),fs.readFileSync(path.join(__dirname,'station-3-photo-
 const code=method.replace(/^setup\(a,api\)/,'function(a,api)');
 const png=fs.readFileSync(path.join(root,'assets/station-3-frucht-leeren-stufen.png'));
 assert.equal(png.readUInt32BE(16)/4,png.readUInt32BE(20)/3);assert.equal(png[25],6);
-assert(s.includes('const OPENING_STAGES="data:image/png;base64,'+png.toString('base64')+'";'));
+assert(/const OPENING_STAGES="data:image\/webp;base64,[A-Za-z0-9+\/=]+";/.test(s));
 for(const reduced of [false,true])for(const scenario of ['complete','closeCut','closeFlight','detached']){
  let queue=[],counts=[],finished=0,cleanup;
  const later=(fn,ms)=>{const t={fn,ms};queue.push(t);return t},cancel=t=>queue=queue.filter(x=>x!==t);

@@ -386,3 +386,105 @@ Einbettung: `python tools/pack-ama-audio.py`.
 Geprüft: alle vier Originaltexte, korrekte Stimmzuordnung, Papa→Ama-Reihenfolge,
 Wiedergabeende/Abbruch, identische eingebettete MP3-Daten, JavaScript-Syntax
 beider Ansichten und fehlerfreie FFmpeg-Dekodierung der neuen Aufnahmen.
+
+## Station 5: fotorealistische Trocknungsanlage in Ghana
+
+Die Trocknungsstation verwendet zwei neue Fotografiken einer erhöhten
+Bambusmatte auf Holzstützen: offen mit fermentierten braunen Bohnen und mit
+ausgebreiteter blauer Regenplane. Der vorhandene 360°-Hof
+(`plantage-mit-hof-botanik.png`) dient als Orts- und Gestaltungsvorlage.
+Fachlicher Abgleich zu erhöhten Bambusmatten in Ghana:
+https://www.cocoafederation.com/education/cocoa-production
+
+Grafiken: `assets/station-5-trocknungsanlage-offen.png` und
+`assets/station-5-trocknungsanlage-abgedeckt.png` (je 1536 × 1024).
+Beide mit integriertem image_gen erstellt und zusätzlich im GAME-Dokument
+eingebettet; vollständige Prompts liegen jeweils in der gleichnamigen
+`-prompt.txt`-Datei. Die abgedeckte Ansicht wurde aus der offenen bearbeitet.
+Regen und Wetterabdunklung werden im Browser über die Fotografiken gelegt.
+Die bisherige Plane-Steuerung und die Sonne/Regen-Regeln bleiben bestehen.
+Aufgaben- und Vorlesetexte bleiben gleich. Der Fortschrittsbalken hat
+zusätzlich eine zugängliche Prozentanzeige; nach Abschluss stoppt der Timer.
+
+Bearbeitbare Stationslogik: `tools/station-5-drying-setup.js`.
+Geprüft: `node tools/check-station-5.cjs`,
+`python tools/check-station-5-browser.py` (Chromium/ChromeDriver benötigt),
+JavaScript-Syntax sowie die vorhandenen Prüfungen für Station 2, Station 3
+und Ama-Audio. Browsercheck mit echten Schaltflächenklicks auf 1150 und
+390 Pixel Breite sowie reduzierter Bewegung. Screenshots:
+`/tmp/kakao-station5-sun-*.png`, `/tmp/kakao-station5-rain-covered-*.png`.
+
+## Station 5: Rundholzplattform, verzweigte Kakaobäume und fotografischer Regen
+
+Aktuelle Grafiken ersetzen die erste schwere Holzkonstruktion durch schlanke
+Rundholzstützen und -streben mit einfachen dünnen Brettern. Die Kakaobäume
+stehen niedrig und verzweigen sich früh; hohe Schattenbäume bilden eine
+zweite Kronenschicht im Hintergrund. Botanische Referenz:
+https://ecocrop.apps.fao.org/ecocrop/srv/en/cropView?id=2074
+
+Verwendete Bilder (je 1536 × 1024):
+- `assets/station-5-trocknungsanlage-offen-v2.png`
+- `assets/station-5-trocknungsanlage-abgedeckt-v2.png`
+- `assets/station-5-regentropfen.png` (RGBA mit fotografischen Tropfen)
+
+Alle drei wurden mit integriertem image_gen erstellt. Die vollständigen
+Prompts stehen jeweils in der gleichnamigen `-prompt.txt`-Datei. Die erste
+Fotoversion bleibt separat erhalten. Die neue offene Ansicht entstand als
+Bearbeitung der ersten; die neue Planenansicht als Bearbeitung der neuen
+offenen Ansicht. Alle aktiven Bilder sind zusätzlich in GAME eingebettet.
+
+Der Regen verwendet zwei leicht gegeneinander versetzte fotografische
+Tropfenebenen mit unterschiedlicher Größe und Fallgeschwindigkeit. Die
+regelmäßigen gezeichneten Regenstreifen sind entfernt. Bei reduzierter
+Bewegung bleibt die fotografische Regenansicht ohne Fallanimation sichtbar.
+Vorlesetexte und Wetter-/Trocknungsregeln bleiben gleich.
+
+Geprüft: Station-5-Logik einschließlich Einbettung aller drei Grafiken;
+Chromium mit echten Schaltflächenklicks, 1150/390 Pixel Breite und reduzierter
+Bewegung; JavaScript-Syntax; Regressionstests für Station 2, Station 3 und
+Amas Audio. Sichtprüfung der offenen und abgedeckten Ansicht im Browser.
+
+## Station 6: fotorealistischer Packplatz und Jutesack
+
+Der Packplatz greift Hof, niedrige verzweigte Kakaobäume und hohe Schattenbäume
+aus Station 5 auf. Trockene braune Bohnen liegen in einer Holzwanne auf einem
+Rundholzgestell. Eine fotografische Metallschaufel hebt die Bohnen an, kippt
+sie über der Sacköffnung aus und kehrt zur Wanne zurück. Ein Jutesack auf
+einer Holzpalette zeigt nacheinander fünf Füllschritte und wird abschließend
+zugebunden. Der Aufdruck „KAKAO / 60 kg“ erscheint am geschlossenen Sack.
+Die vorhandenen fünf Spielschritte sowie Aufgaben- und Vorlesetexte bleiben
+erhalten. Mehrfachklicks während des Schaufelns zählen nicht zusätzlich; beim
+Schließen werden laufende Bewegungen und Zeitgeber abgebrochen.
+
+Neue Bilddateien, jeweils mit integriertem image_gen erstellt:
+- `assets/station-6-packplatz.png` (1536 × 1024)
+- `assets/station-6-jutesack-fuellstufen.png` (1774 × 887, 4 × 2 Felder; leer,
+  20/40/60/80/100 Prozent offen, voll zugebunden, Ersatz-Endzustand)
+- `assets/station-6-schaufel-und-bohnen.png` (2048 × 683, 3 Felder: beladene
+  Schaufel, leere Schaufel, fallende trockene Bohnen)
+
+Die vollständigen Prompts stehen in den gleichnamigen `-prompt.txt`-Dateien.
+Als Ortsvorlage diente `station-5-trocknungsanlage-offen-v2.png`. Alle aktiven
+Bilder sind zusätzlich in GAME eingebettet. Der große Sackatlas verwendet
+eine einmalig angelegte Blob-URL, damit die CSS-Hintergrundgrafik auch bei
+Browser-Grenzen für große Daten-URLs zuverlässig sichtbar bleibt.
+Bearbeitbare Quellen: `tools/station-6-packing-setup.js` und
+`tools/station-6-packing.css`.
+
+Geprüft: `node tools/check-station-6.cjs` (Bilddaten, fünf Füllschritte,
+Mehrfachklicks, Abschluss/Abbruch, reduzierte Bewegung);
+`python tools/check-station-6-browser.py` mit Chromium/ChromeDriver (echte
+Klicks und Tastatur, 1150/390 Pixel Breite, Bilddarstellung und Abbruch).
+Sichtprüfung: leerer, teilweise gefüllter, voller offener und zugebundener
+Sack sowie Ausschütten an der Sacköffnung. Screenshots liegen unter
+`/tmp/kakao-station6-*.png`. JavaScript-Syntax und die vorhandenen
+Prüfungen für Station 2, 3, 5 sowie Ama-Audio bestanden.
+
+
+## Dateigröße: eingebettete Bilder als WebP
+
+GitHub lehnt Dateien über 100 MB ab. Deshalb sind die in `index.html` eingebetteten
+PNG-Bilder als WebP (Qualität 90, Originalauflösung, Transparenz bleibt erhalten)
+gespeichert. Die Datei schrumpft dadurch von 107,1 MB auf 45,8 MB. Die Original-PNGs
+bleiben in `assets/`. Nach dem Einbetten neuer PNGs erneut ausführen (benötigt Pillow):
+`python3 tools/compress-embedded-images.py`.
