@@ -5,7 +5,14 @@
 .packing-photo .packing-sack-photo{position:absolute;inset:0;display:block;background-image:var(--packing-sacks);background-size:400% 200%;background-position:var(--sack-x,0%) var(--sack-y,0%);background-repeat:no-repeat}
 .packing-photo .packing-stamp{position:absolute;left:50%;top:56%;transform:translate(-50%,-50%) rotate(-7deg);color:#443925;font-weight:800;font-size:clamp(11px,2vw,23px);line-height:1.1;letter-spacing:1px;text-align:center;opacity:0;mix-blend-mode:multiply;transition:opacity .3s}
 .packing-photo .packing-sack.tied .packing-stamp{opacity:.64}
-.packing-photo .packing-scoop{position:absolute;left:24%;top:58%;width:27%;aspect-ratio:1;transform:translate(-50%,-50%);z-index:4;pointer-events:none;filter:drop-shadow(2px 5px 3px #30231860)}
+.packing-photo .packing-scoop{position:absolute;left:24%;top:58%;width:27%;aspect-ratio:1;transform:translate(-50%,-50%);z-index:4;pointer-events:auto;touch-action:none;user-select:none;-webkit-user-select:none;cursor:grab;border:0;padding:0;background:transparent;transition:left .28s ease,top .28s ease,filter .2s;filter:drop-shadow(2px 5px 3px #30231860)}
+.packing-photo .packing-scoop:active{cursor:grabbing}
+.packing-photo .packing-scoop:focus-visible{outline:3px solid #ffe18b;outline-offset:2px;border-radius:20px}
+.packing-photo .packing-scoop.is-dragging{z-index:7;transition:none;cursor:grabbing;filter:drop-shadow(5px 9px 5px #30231880)}
+.packing-photo .packing-scoop.is-pouring{animation:packing-tip .72s ease-in-out}
+.packing-photo .packing-scoop.is-refilling{filter:drop-shadow(2px 5px 3px #30231860)}
+@keyframes packing-tip{0%,100%{transform:translate(-50%,-50%) rotate(0)}35%,68%{transform:translate(-50%,-50%) rotate(52deg)}}
 .packing-photo .packing-scoop-photo{position:absolute;inset:0;display:block;background-image:var(--packing-tool);background-size:300% 100%;background-position:var(--scoop-cell,0%) 0;background-repeat:no-repeat}
-.packing-photo .packing-grains{position:absolute;width:11%;aspect-ratio:1;z-index:5;opacity:0;clip-path:inset(0 0 35% 0);pointer-events:none;background-image:var(--packing-tool);background-size:300% 100%;background-position:100% 0;background-repeat:no-repeat}
-@media(prefers-reduced-motion:reduce){.packing-photo .packing-stamp{transition:none}}
+.packing-photo .packing-grains{position:absolute;width:8%;aspect-ratio:1;z-index:5;opacity:0;clip-path:inset(0 0 35% 0);pointer-events:none;background-image:var(--packing-tool);background-size:300% 100%;background-position:100% 0;background-repeat:no-repeat}
+.packing-help{justify-content:center;text-align:center;font-weight:650;color:#543b25;min-height:1.4em}
+@media(prefers-reduced-motion:reduce){.packing-photo .packing-stamp{transition:none}.packing-photo .packing-scoop.is-pouring{animation:none}}

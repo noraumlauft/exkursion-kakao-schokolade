@@ -443,19 +443,20 @@ Amas Audio. Sichtprüfung der offenen und abgedeckten Ansicht im Browser.
 
 Der Packplatz greift Hof, niedrige verzweigte Kakaobäume und hohe Schattenbäume
 aus Station 5 auf. Trockene braune Bohnen liegen in einer Holzwanne auf einem
-Rundholzgestell. Eine fotografische Metallschaufel hebt die Bohnen an, kippt
-sie über der Sacköffnung aus und kehrt zur Wanne zurück. Ein Jutesack auf
-einer Holzpalette zeigt nacheinander fünf Füllschritte und wird abschließend
-zugebunden. Der Aufdruck „KAKAO / 60 kg“ erscheint am geschlossenen Sack.
-Die vorhandenen fünf Spielschritte sowie Aufgaben- und Vorlesetexte bleiben
-erhalten. Mehrfachklicks während des Schaufelns zählen nicht zusätzlich; beim
-Schließen werden laufende Bewegungen und Zeitgeber abgebrochen.
+Rundholzgestell. Die Bohnen in Wanne, Schaufel und Sack sind aufeinander
+abgestimmt; die Schaufel- und Sackatlanten zeigen kleinere, zahlreichere Bohnen
+als die erste Fassung. Die Metallschaufel wird mit Finger oder Maus zur offenen
+Sacköffnung gezogen und leert sich dort. Anschließend zieht man die leere
+Schaufel zurück zur Bohnenwanne, wo sie sich automatisch wieder füllt. Fünf
+Füllgänge schließen den Sack, danach erscheint der Aufdruck „KAKAO / 60 kg“.
+Tastaturbedienung bleibt über Enter/Leertaste möglich. Beim Schließen werden
+laufende Bewegungen und Zeitgeber abgebrochen.
 
 Neue Bilddateien, jeweils mit integriertem image_gen erstellt:
 - `assets/station-6-packplatz.webp` (1536 × 1024)
-- `assets/station-6-jutesack-fuellstufen.webp` (1774 × 887, 4 × 2 Felder; leer,
+- `assets/station-6-jutesack-fuellstufen-v2.webp` (1774 × 887, 4 × 2 Felder; leer,
   20/40/60/80/100 Prozent offen, voll zugebunden, Ersatz-Endzustand)
-- `assets/station-6-schaufel-und-bohnen.webp` (2048 × 683, 3 Felder: beladene
+- `assets/station-6-schaufel-und-bohnen-v2.webp` (2172 × 724, 3 Felder: beladene
   Schaufel, leere Schaufel, fallende trockene Bohnen)
 
 Die vollständigen Prompts stehen in den gleichnamigen `-prompt.txt`-Dateien.
@@ -466,12 +467,11 @@ Browser-Grenzen für große Daten-URLs zuverlässig sichtbar bleibt.
 Bearbeitbare Quellen: `tools/station-6-packing-setup.js` und
 `tools/station-6-packing.css`.
 
-Geprüft: `node tools/check-station-6.cjs` (Bilddaten, fünf Füllschritte,
-Mehrfachklicks, Abschluss/Abbruch, reduzierte Bewegung);
-`python tools/check-station-6-browser.py` mit Chromium/ChromeDriver (echte
-Klicks und Tastatur, 1150/390 Pixel Breite, Bilddarstellung und Abbruch).
-Sichtprüfung: leerer, teilweise gefüllter, voller offener und zugebundener
-Sack sowie Ausschütten an der Sacköffnung. Screenshots liegen unter
+Geprüft: `node tools/check-station-6.cjs` (Bildatlanten und Bedienungszustände);
+`python tools/check-station-6-browser.py` mit Chromium/ChromeDriver (Mausziehen,
+simulierte Touch-Ereignisse, Tastatur, Nachfüllen, Abbruch und reduzierte
+Bewegung bei 1150/390 Pixel Breite). Sichtprüfung: leere, teilweise gefüllte
+und zugebundene Säcke, Ausschütten sowie Größenvergleich am Tisch. Screenshots liegen unter
 `/tmp/kakao-station6-*.png`. JavaScript-Syntax und die vorhandenen
 Prüfungen für Station 2, 3, 5 sowie Ama-Audio bestanden.
 
