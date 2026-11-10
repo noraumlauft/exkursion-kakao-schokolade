@@ -511,3 +511,13 @@ Die erste Bildfassung bleibt als `station-4-fermentation-offen.webp` und
 `station-4-fermentation-braun.webp` erhalten. In v2 sind die einzelnen Bohnen
 kleiner und zahlreicher, der Haufen nimmt weniger Bildfläche ein und die
 Abdeckung sowie das Paddel sind auf die neuen Proportionen abgestimmt.
+
+## Einstieg an einzelnen Stationen
+
+Mit `#station1` bis `#station6` am Ende der Adresse startet das 2D-Spiel direkt
+an dieser Station, ohne 360°-Rundgang, z. B.
+`https://noraumlauft.github.io/exkursion-kakaoplantage/#station3`.
+Machete und Zwischenprodukte der vorherigen Stationen sind dann schon vorhanden.
+Der Link überschreibt einen gespeicherten Spielstand, sobald auf „Los geht's!“
+getippt wird. QR-Codes liegen in `qr-codes/`, zum Drucken in
+`qr-codes/alle-stationen.pdf`.
