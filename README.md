@@ -3,7 +3,7 @@
 360°-Rundgang mit Ama über eine Kakaoplantage in Ghana und anschließendes Lernspiel
 (Bestäuben, Ernten, Öffnen, Gären, Trocknen, Abpacken, Fahrt zum Hafen).
 
-- Originalpanorama, KI-Vergleichsversion und Spiel sind in `index.html` eingebettet. Unter `assets/` liegen die Bilddateien zusätzlich separat.
+- Originalpanorama und Spiel sind in `index.html` eingebettet. Unter `assets/` liegen die Bilddateien zusätzlich separat.
 - Läuft im Browser auf iPad, Tablet, Handy und Computer.
 - Auf iPad/Handy funktioniert das Umschauen per Bewegungssensor nur über eine https-Adresse (z. B. GitHub Pages).
 - Lehrermodus: 10× schnell oben links tippen (im Spiel auf „☰ Kakao-Expedition“, im 360°-Rundgang auf den Titel).
@@ -57,7 +57,7 @@ Vollständiger Prompt: `assets/plantage-mit-hof-schlank-prompt.txt`.
 Vorherige Dateien bleiben als Arbeitsstände erhalten. Einbettung und JavaScript-
 Syntax geprüft; Browserprüfung steht aus.
 
-Aktueller Stand: Das unveränderte Original ist wieder die Startansicht. Die KI-Version mit schlankeren Bäumen bleibt ausschließlich zum Vergleich auswählbar.
+Aktueller Stand: Das unveränderte Original ist die einzige 360°-Ansicht. Die KI-Version mit schlankeren Bäumen und die Bildauswahl wurden entfernt.
 
 ## Station 2: fotorealistische Ernte
 
